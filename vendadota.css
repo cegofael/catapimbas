@@ -1,0 +1,92 @@
+/* Configuração geral */
+body {
+    background-color: #1b2838;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #171a21;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Banner principal */
+.banner {
+    background-image: url('https://cdn.akamai.steamstatic.com/store/home/store_home_share.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Detalhes do jogo */
+.game-detail-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game-detail {
+    background-color: #2a475e;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.game-detail img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.game-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.purchase-button {
+    background-color: #66c0f4;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-button:hover {
+    background-color: #417a9b;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #171a21;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
